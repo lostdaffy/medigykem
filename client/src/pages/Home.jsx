@@ -238,7 +238,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Our Divisions Section */}
       <section className="min-h-screen bg-white flex items-center justify-center pt-20">
         <div className="max-w-8xl px-4 md:px-20 ">
@@ -248,18 +248,20 @@ const Home = () => {
               Our <span className="text-[#7CC241]">Divisions</span>
             </h1>
             <p className="text-gray-800 text-lg md:text-xl max-w-7xl mx-auto leading-relaxed">
-              We understand the need for proper healthcare facilities for
-              patients, and with more than 15 years of experience, the company
-              knows every nitty-gritty that go into the proper functioning of
-              the healthcare industry. So, we have expanded its reach to various
-              sectors of the healthcare industry via our three general divisions
-              and two specialized divisions.
+              At <span className="font-semibold">Kemlunex Pharma</span>, we
+              recognize the importance of accessible and reliable healthcare.
+              With over 15 years of expertise, we understand the critical
+              details that drive the healthcare industry. To address diverse
+              medical needs, we have expanded our presence through{" "}
+              <span className="font-semibold">three general divisions</span> and{" "}
+              <span className="font-semibold">two specialized divisions</span>,
+              ensuring advanced and comprehensive therapeutic solutions.
             </p>
 
             <img
               src="/images/divisions.jpg"
-              className="mt-10 rounded-3xl"
-              alt=""
+              className="mt-10 rounded-3xl shadow-lg"
+              alt="Kemlunex Pharma Divisions"
             />
           </div>
         </div>
