@@ -119,7 +119,7 @@ const GetInTouch = () => {
                       Phone Numbers
                     </h4>
                     <p className="text-gray-200 text-sm sm:text-base">
-                      +91 98880 86762 <br />
+                      +91 99880 86762 <br />
                       +91 94651 16697 <br />
                       +91 99567 36697 <br />
                       +91 73985 87324

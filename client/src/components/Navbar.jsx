@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Desktop Contact Button */}
           <div className="hidden lg:flex items-center">
             <Link
-              to="tel:+919888086762"
+              to="tel:+919988086762"
               className="bg-[#7CC241] text-white px-6 xl:px-8 py-2 xl:py-3 rounded-full shadow-md 
                 hover:bg-[#5aaa1c] transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center"
             >
@@ -95,7 +95,7 @@ const Navbar = () => {
 
             {/* Mobile Contact Button */}
             <Link
-              to="tel:+919888086762"
+              to="tel:+919988086762"
               onClick={() => setIsMenuOpen(false)}
               className="mt-4 bg-[#7CC241] text-white px-4 py-3 rounded-full font-semibold text-center 
                 hover:bg-[#5aaa1c] transition-all duration-300 w-full block shadow-md hover:shadow-lg"

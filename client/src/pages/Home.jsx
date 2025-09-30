@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Links } from "react-router-dom";
 import GetInTouch from "../components/GetInTouch";
 
 const Home = () => {
@@ -544,10 +544,10 @@ const Home = () => {
             Ready to start your pharmaceutical business? Our franchise support
             team is available 24/7
           </p>
-          <button className="bg-[#1A3A7C] hover:bg-[#2d5aa0] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+          <Link to="tel:+919988086762" className="bg-[#1A3A7C] hover:bg-[#2d5aa0] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
             <i className="ri-customer-service-2-line mr-2"></i>
             Contact Business Team
-          </button>
+          </Link>
         </div>
       </section>
     </>

@@ -99,12 +99,12 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="text-xs text-gray-400 mb-1">Email Us</div>
-                  <a
-                    href="mailto:medigykempharma@gmail.com"
+                  <Link
+                    to="mailto:medigykempharma@gmail.com"
                     className="hover:text-[#7cc241] transition-colors font-medium"
                   >
                     medigykempharma@gmail.com
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -117,18 +117,18 @@ const Footer = () => {
                   <div className="text-xs text-gray-400 mb-2">Call Us</div>
                   <div className="space-y-1">
                     {[
-                      "+91 98880 86762",
+                      "+91 99880 86762",
                       "+91 94651 16697", 
                       "+91 99567 36697",
                       "+91 73985 87324"
                     ].map((phone, index) => (
                       <div key={index}>
-                        <a 
-                          href={`tel:${phone.replace(/\s/g, '')}`} 
+                        <Link 
+                          to={`tel:${phone.replace(/\s/g, '')}`} 
                           className="hover:text-[#7cc241] transition-colors block text-sm font-medium"
                         >
                           {phone}
-                        </a>
+                        </Link>
                       </div>
                     ))}
                   </div>
@@ -140,19 +140,18 @@ const Footer = () => {
                 <div className="text-xs text-gray-400 mb-3">Follow Us</div>
                 <div className="flex gap-3">
                   {[
-                    { icon: "ri-instagram-line", url: "https://instagram.com/" },
-                    { icon: "ri-facebook-circle-line", url: "https://facebook.com/" },
-                    { icon: "ri-youtube-line", url: "https://youtube.com/" }
+                    { icon: "ri-instagram-line", url: "https://www.instagram.com/medigykem_pharma/" },
+                    { icon: "ri-facebook-circle-line", url: "https://www.facebook.com/profile.php?id=61580840976419" },
                   ].map((social, index) => (
-                    <a
+                    <Link
                       key={index}
-                      href={social.url}
+                      to={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-[#7cc241]/10 hover:bg-[#7cc241] rounded-full flex items-center justify-center text-[#7cc241] hover:text-white transition-all duration-300 hover:scale-110 hover:rotate-6"
                     >
                       <i className={`${social.icon} text-lg`}></i>
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>

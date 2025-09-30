@@ -1,6 +1,7 @@
 import React from "react";
 import GetInTouch from "../components/GetInTouch";
 import HeroSection from "../components/HeroSection";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -157,12 +158,12 @@ const Contact = () => {
                     <h4 className="text-lg font-semibold text-[#1A3A7C] mb-2">
                       Email Us
                     </h4>
-                    <a
-                      href="mailto:medigykempharma@gmail.com"
+                    <Link
+                      to="mailto:medigykempharma@gmail.com"
                       className="text-[#7CC241] hover:text-[#5aa832] transition-colors duration-300 text-lg font-medium"
                     >
                       medigykempharma@gmail.com
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -177,30 +178,30 @@ const Contact = () => {
                       Call Us
                     </h4>
                     <div className="space-y-2">
-                      <a
-                        href="tel:+919888086762"
+                      <Link
+                        to="tel:+919988086762"
                         className="block text-[#7CC241] hover:text-[#5aa832] transition-colors duration-300 font-medium"
                       >
-                        +91 98880 86762
-                      </a>
-                      <a
-                        href="tel:+919465116697"
+                        +91 99880 86762
+                      </Link>
+                      <Link
+                        to="tel:+919465116697"
                         className="block text-[#7CC241] hover:text-[#5aa832] transition-colors duration-300 font-medium"
                       >
                         +91 94651 16697
-                      </a>
-                      <a
-                        href="tel:+919956736697"
+                      </Link>
+                      <Link
+                        to="tel:+919956736697"
                         className="block text-[#7CC241] hover:text-[#5aa832] transition-colors duration-300 font-medium"
                       >
                         +91 99567 36697
-                      </a>
-                      <a
-                        href="tel:+917398587324"
+                      </Link>
+                      <Link
+                        to="tel:+917398587324"
                         className="block text-[#7CC241] hover:text-[#5aa832] transition-colors duration-300 font-medium"
                       >
                         +91 73985 87324
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -221,53 +222,37 @@ const Contact = () => {
 
                 <div className="grid grid-cols-2 gap-4">
                   {/* Facebook */}
-                  <a
-                    href="#"
+                  <Link
+                    to="https://www.facebook.com/profile.php?id=61580840976419"
                     className="bg-white/10 hover:bg-white/20 rounded-lg p-4 text-center transition-all duration-300 hover:scale-105 group"
                   >
                     <i className="ri-facebook-fill text-3xl text-white group-hover:text-[#7CC241] transition-colors duration-300 mb-2"></i>
                     <p className="text-sm font-medium">Facebook</p>
-                  </a>
+                  </Link>
 
                   {/* Instagram */}
-                  <a
-                    href="#"
+                  <Link
+                    to="https://www.instagram.com/medigykem_pharma/"
                     className="bg-white/10 hover:bg-white/20 rounded-lg p-4 text-center transition-all duration-300 hover:scale-105 group"
                   >
                     <i className="ri-instagram-line text-3xl text-white group-hover:text-[#7CC241] transition-colors duration-300 mb-2"></i>
                     <p className="text-sm font-medium">Instagram</p>
-                  </a>
+                  </Link>
 
-                  {/* LinkedIn */}
-                  <a
-                    href="#"
-                    className="bg-white/10 hover:bg-white/20 rounded-lg p-4 text-center transition-all duration-300 hover:scale-105 group"
-                  >
-                    <i className="ri-linkedin-fill text-3xl text-white group-hover:text-[#7CC241] transition-colors duration-300 mb-2"></i>
-                    <p className="text-sm font-medium">LinkedIn</p>
-                  </a>
-
-                  {/* Twitter */}
-                  <a
-                    href="#"
-                    className="bg-white/10 hover:bg-white/20 rounded-lg p-4 text-center transition-all duration-300 hover:scale-105 group"
-                  >
-                    <i className="ri-twitter-x-line text-3xl text-white group-hover:text-[#7CC241] transition-colors duration-300 mb-2"></i>
-                    <p className="text-sm font-medium">Twitter</p>
-                  </a>
+                  
                 </div>
 
                 {/* WhatsApp Business */}
                 <div className="mt-6">
-                  <a
-                    href="https://wa.me/919888086762"
+                  <Link
+                    to="https://wa.me/919988086762"
                     className="w-full bg-[#7CC241] hover:bg-[#5aa832] rounded-lg p-4 flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105"
                   >
                     <i className="ri-whatsapp-line text-2xl text-white"></i>
                     <span className="font-semibold text-white">
                       WhatsApp Business
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
